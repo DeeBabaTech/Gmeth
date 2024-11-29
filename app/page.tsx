@@ -80,7 +80,13 @@ export default function Home() {
       {/* About section */}
       <div className='bg-secondary p-20 pt-48 text-primary text-xl'>
         <div className='bg-white flex justify-between gap-10 p-20 pt-7'>
-          <img src='/assets/eng1.png' alt='' className='-mt-40' />
+          <Image
+            width='1000'
+            height='1000'
+            src='/assets/eng1.png'
+            alt=''
+            className='-mt-40'
+          />
           <div className='relative'>
             <div className='absolute -mt-24 text-white text-4xl font-bold before:absolute before:h-0.5 before:w-20 before:bg-white/40 before:-top-3'>
               About Gmeth
