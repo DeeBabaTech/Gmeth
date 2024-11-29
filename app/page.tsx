@@ -40,6 +40,7 @@ export default function Home() {
           height='1000'
           alt='Gmeth logo'
           className='w-32'
+          priority
         />
         <div className='w-3/5 flex justify-around items-center'>
           <p>Home</p>
@@ -285,7 +286,7 @@ export default function Home() {
 
         <Divider className='bg-white my-5' />
 
-        <div className='flex justify-between'>
+        <div className='flex justify-between mt-2'>
           <div className=' bg-secondary rounded-md'>
             <h1 className='text-xl font-semibold mb-1'>Reach us</h1>
             <div className='flex items-center gap-3 my-3'>
