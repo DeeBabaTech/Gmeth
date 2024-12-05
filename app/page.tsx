@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import TextField from "@/components/text-field";
 import { Button, Divider } from "@mui/material";
+import DrawerNav from "@/components/ui/drawer";
 
 const projectTypes = ["All", "Designs", "Electrical", "Mechanical"];
 
@@ -50,6 +51,7 @@ export default function Home() {
           <p>Testimonials</p>
           <p>Contact Us</p>
         </div>
+        <DrawerNav />
       </div>
 
       {/* Hero section */}
@@ -59,20 +61,20 @@ export default function Home() {
           height='1000'
           width='1000'
           alt='hero'
-          className='w-full md:h-[80vh] opacity-65'
+          className='w-full h-[60vh] md:h-[80vh] opacity-65'
         />
-        <div className='md:w-2/5 w-5/6 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
-          <BoxReveal boxColor={"#6b1d50"} duration={0.5} >
-            <div className='md:text-6xl text-center text-2xl font-bold md:leading-[4rem]'>
+        <div className='md:w-2/5 w-3/4 text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+          <BoxReveal boxColor={"#6b1d50"} duration={0.5}>
+            <div className='md:text-6xl text-center text-3xl font-bold md:leading-[4rem]'>
               You Think it, We Build it
             </div>
           </BoxReveal>
-          <div className='md:mt-5 mt-3 md:mb-10 mb-5 md:text-lg'>
+          <div className='md:mt-5 mt-4 md:mb-10 mb-7 text-lg'>
             We offer our clients the best constuction service
           </div>
           <PulsatingButton
             pulseColor='#6b1d50'
-            className='text-secondary md:px-6 px-3 md:py-2 py-1 bg-slate-100 w-fit mx-auto rounded-md'>
+            className='text-secondary text-lg md:text-base md:px-6 px-3 md:py-2 py-1 bg-slate-100 w-fit mx-auto rounded-md'>
             Contact Us
           </PulsatingButton>
         </div>
@@ -86,13 +88,13 @@ export default function Home() {
             height='1000'
             src='/assets/eng1.png'
             alt=''
-            className='md:-mt-44 md:w-[150%]'
+            className='md:-mt-44 md:w-[150%] h-80 md:h-full'
           />
           <div className='relative'>
             <div className='md:absolute md:-mt-36 my-5 md:text-white md:text-4xl text-3xl font-bold before:absolute before:h-0.5 before:w-20 before:bg-white/40 before:-top-3'>
               About Gmeth
             </div>
-            <div className="md:-mt-16">
+            <div className='md:-mt-16'>
               <span className='font-semibold'>G-METH</span> is an indigenous
               engineering firm registered with the corporate affairs commission
               and has successfully completed projects for a number of her
@@ -204,8 +206,8 @@ export default function Home() {
       <Divider />
 
       {/* Contact Information */}
-      <div className='flex gap-10 p-20 py-10'>
-        <div className='w-2/5 p-10 py-7 bg-secondary rounded-md'>
+      <div className='md:flex gap-10 md:p-20 py-10'>
+        <div className='md:w-2/5 p-10 py-7 bg-secondary md:rounded-md'>
           <h1 className='text-xl font-semibold mb-1'>Contact Information</h1>
           <p className='text-slate-300'>Say something to start a live chat</p>
           <div className='flex items-center gap-3 my-3'>
@@ -229,7 +231,7 @@ export default function Home() {
         </div>
 
         {/* form */}
-        <form className='w-1/2'>
+        <form className='md:w-1/2 p-5'>
           <TextField
             id='fname'
             type='text'
