@@ -228,7 +228,7 @@ export default function RootLayout({
             </div>
           </div>
           <div className='flex gap-1 justify-center md:py-5 py-10'>
-            <Copyright /> 2024 Gmeth Engineering
+            <Copyright /> 2025 Gmeth Engineering
           </div>
         </div>
       </body>
