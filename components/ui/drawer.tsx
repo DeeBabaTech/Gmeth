@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import Box from "@mui/material/Box";
 import { SwipeableDrawer } from "@mui/material";
@@ -32,10 +34,6 @@ export default function DrawerNav() {
     {
       id: "projects",
       nav: "Projects",
-    },
-    {
-      id: "testimonials",
-      nav: "Testimonials",
     },
     {
       id: "contact",
