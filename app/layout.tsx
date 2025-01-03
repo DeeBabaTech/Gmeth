@@ -29,6 +29,12 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Gmeth",
   description: "Engineering Company",
+  icons: [
+    {
+      url: "/logo.svg",
+      href: "/logo.svg",
+    },
+  ],
 };
 
 export default function RootLayout({
