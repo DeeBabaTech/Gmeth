@@ -43,14 +43,16 @@ export default function RootLayout({
         <div
           id='home'
           className='bg-secondary flex items-center justify-between px-5'>
-          <Image
-            src='/logo.svg'
-            width='1000'
-            height='1000'
-            alt='Gmeth logo'
-            className='md:w-32 w-24'
-            priority
-          />
+          <Link href='/'>
+            <Image
+              src='/logo.svg'
+              width='1000'
+              height='1000'
+              alt='Gmeth logo'
+              className='md:w-32 w-24'
+              priority
+            />
+          </Link>
           <div className='w-2/5 hidden md:flex justify-around items-center'>
             <a href='/'>Home</a>
             <a href='#about'>About</a>
