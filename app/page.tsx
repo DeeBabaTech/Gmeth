@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/navigation";
 import { useState } from "react";
 import { ThreeDCard } from "@/components/card";
 import PulsatingButton from "@/components/ui/pulsating-button";
@@ -34,7 +35,9 @@ export default function Home() {
   return (
     <div className='w-full text-white'>
       {/* Nav */}
-      <div className='bg-secondary flex items-center justify-between px-5'>
+      <div
+        id='home'
+        className='bg-secondary flex items-center justify-between px-5'>
         <Image
           src='/logo.svg'
           width='1000'
@@ -44,12 +47,12 @@ export default function Home() {
           priority
         />
         <div className='w-3/5 hidden md:flex justify-around items-center'>
-          <p>Home</p>
-          <p>About</p>
-          <p>Services</p>
-          <p>Projects</p>
-          <p>Testimonials</p>
-          <p>Contact Us</p>
+          <a href='#home'>Home</a>
+          <a href='#about'>About</a>
+          <a href='#services'>Services</a>
+          <a href='#projects'>Projects</a>
+          <a href='#testimonials'>Testimonials</a>
+          <a href='#contact'>Contact Us</a>
         </div>
         <DrawerNav />
       </div>
@@ -81,7 +84,9 @@ export default function Home() {
       </div>
 
       {/* About section */}
-      <div className='bg-secondary md:p-20 md:pt-48 text-primary md:text-xl'>
+      <div
+        id='about'
+        className='bg-secondary md:p-20 md:pt-48 text-primary md:text-xl'>
         <div className='bg-white md:flex justify-between gap-10 md:p-20 px-5 pt-7'>
           <Image
             width='1000'
@@ -117,7 +122,7 @@ export default function Home() {
       </div>
 
       {/* Services */}
-      <div className='bg-slate-300 md:p-20 p-5 text-primary'>
+      <div id='services' className='bg-slate-300 md:p-20 p-5 text-primary'>
         <div className='relative text-3xl font-bold before:absolute before:h-0.5 before:w-20 before:bg-secondary before:-top-2'>
           Services
         </div>
@@ -167,7 +172,7 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <div className='md:px-20 px-5 md:py-10 text-primary'>
+      <div id='projects' className='md:px-20 px-5 md:py-10 text-primary'>
         <div className='sticky top-0 z-30 pt-10 bg-white w-full'>
           <div className='relative text-3xl font-bold before:absolute before:h-0.5 before:w-20 before:bg-secondary before:-top-2'>
             Projects
@@ -206,7 +211,7 @@ export default function Home() {
       <Divider />
 
       {/* Contact Information */}
-      <div className='md:flex gap-10 md:p-20 py-10'>
+      <div id='contact' className='md:flex gap-10 md:p-20 py-10'>
         <div className='md:w-2/5 p-10 py-7 bg-secondary md:rounded-md'>
           <h1 className='text-xl font-semibold mb-1'>Contact Information</h1>
           <p className='text-slate-300'>Say something to start a live chat</p>
