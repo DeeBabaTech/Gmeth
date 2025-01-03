@@ -1,15 +1,10 @@
 "use client";
 
 import * as React from "react";
-import Box from "@mui/material/Box";
 import { SwipeableDrawer } from "@mui/material";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
 import { MenuIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function DrawerNav() {
   const [open, setOpen] = React.useState(false);
@@ -20,7 +15,7 @@ export default function DrawerNav() {
 
   const navList = [
     {
-      id: "home",
+      id: "/",
       nav: "Home",
     },
     {
@@ -49,7 +44,7 @@ export default function DrawerNav() {
       <List>
         {navList.map((text) => (
           <div key={text.id} className='my-10 text-center text-lg'>
-            <a href={`#${text.id}`}> {text.nav}</a>
+            <Link href={text.id === "/" ? "/" : `#${text.id}`}>{text.nav}</Link>
           </div>
         ))}
       </List>
