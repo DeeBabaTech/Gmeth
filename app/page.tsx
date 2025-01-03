@@ -5,13 +5,9 @@ import { useState } from "react";
 import { ThreeDCard } from "@/components/card";
 import PulsatingButton from "@/components/ui/pulsating-button";
 import NumberTicker from "@/components/ui/number-ticker";
-import BoxReveal from "@/components/ui/box-reveal";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import projects from "@/components/json/projects.json";
-
-import TextField from "@/components/text-field";
-import { Button, Divider } from "@mui/material";
-import DrawerNav from "@/components/ui/drawer";
+import { Divider } from "@mui/material";
 import Link from "next/link";
 
 const projectTypes = ["All", "Designs", "Electrical", "Mechanical"];

@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { Button, Divider } from "@mui/material";
 import TextField from "@/components/text-field";
+import Link from "next/link";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -78,11 +79,13 @@ export default function RootLayout({
             <div className='md:mt-5 mt-4 md:mb-10 mb-7 text-lg'>
               We offer our clients the best constuction service
             </div>
-            <PulsatingButton
-              pulseColor='#6b1d50'
-              className='text-secondary text-lg md:text-base md:px-6 px-3 md:py-2 py-1 bg-slate-100 w-fit mx-auto rounded-md'>
-              Contact Us
-            </PulsatingButton>
+            <Link href='#contact'>
+              <PulsatingButton
+                pulseColor='#6b1d50'
+                className='text-secondary text-lg md:text-base md:px-6 px-3 md:py-2 py-1 bg-slate-100 w-fit mx-auto rounded-md'>
+                Contact Us
+              </PulsatingButton>
+            </Link>
           </div>
         </div>
 
