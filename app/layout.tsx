@@ -85,7 +85,7 @@ export default function RootLayout({
               </div>
             </BoxReveal>
             <div className='md:mt-5 mt-4 md:mb-10 mb-7 text-lg'>
-              We offer our clients the best constuction service
+              We offer our clients the best construction services
             </div>
             <Link href='#contact'>
               <PulsatingButton
@@ -174,13 +174,15 @@ export default function RootLayout({
 
         {/* Footer */}
         <div className='bg-secondary md:px-20 px-5 md:pt-10'>
-          <Image
-            src='/logo.svg'
-            width='1000'
-            height='1000'
-            alt='Gmeth logo'
-            className='w-32 mx-auto'
-          />
+          <a href='#home'>
+            <Image
+              src='/logo.svg'
+              width='1000'
+              height='1000'
+              alt='Gmeth logo'
+              className='w-32 mx-auto'
+            />
+          </a>
 
           <Divider className='bg-white md:my-5 mb-3' />
 

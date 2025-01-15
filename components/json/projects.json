@@ -3,22 +3,37 @@
     "images": "/assets/pro-one.jpg",
     "title": "CHEVRON CORPORATIVE",
     "text": "Abujo Panel.",
-    "type": ""
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-two.jpg",
     "title": "LASU PROJECT",
-    "text": "Multi-Purpose Hall."
+    "text": "Multi-Purpose Hall.",
+    "type": "Electrical"
+  },
+  {
+    "images": "/assets/pro-sixteen.jpg",
+    "title": "SHORTLET LEKKI PHASE1",
+    "text": "Design (Mechanical, Electrical & Plumbling).",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-three.jpg",
     "title": "BAY VIEW ESTATE ",
-    "text": "Mechanical, Electrical and Plumbling."
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Electrical"
+  },
+  {
+    "images": "/assets/pro-three.jpg",
+    "title": "BAY VIEW ESTATE ",
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Mechanical"
   },
   {
     "images": "/assets/pro-four.jpeg",
     "title": "HOUSE ON THE ROCK CATHEDRAL",
-    "text": "Light Control Panel."
+    "text": "Light Control Panel.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-five.jpg",
@@ -28,57 +43,75 @@
   {
     "images": "/assets/pro-six.jpg",
     "title": "JAWA MEP",
-    "text": "Design (Mechanical, Electrical & Plumbling)."
+    "text": "Design (Mechanical, Electrical & Plumbling).",
+    "type": "Designs"
   },
   {
     "images": "/assets/pro-seven.jpg",
     "title": "LAKE VIEW ESTATE LEKKI, LAGOS",
-    "text": "Mechanical, Electrical and Plumbling."
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-eight.jpg",
     "title": "NICON TOWN ESTATE LEKKI, LAGOS",
-    "text": "Mechanical, Electrical and Plumbling."
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Mechanical"
   },
   {
     "images": "/assets/pro-nine.jpg",
     "title": "RCCG ROSE OF SHARON IKEJA",
-    "text": "Electrical & Heat, Ventilation, and Air Conditioning."
+    "text": "Electrical & Heat, Ventilation, and Air Conditioning.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-ten.jpg",
     "title": "LASU PROJECT",
-    "text": "Transformer Installation."
+    "text": "Transformer Installation.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-eleven.jpg",
     "title": "BONNY ISLAND INFRASTRUCTURE",
-    "text": "Electrical Installation."
+    "text": "Electrical Installation.",
+    "type": "Electrical"
   },
+
   {
-    "images": "/assets/pro-twelve.jpg",
-    "title": "SHORELINE ESTATE",
-    "text": "Lighting Installation."
+    "images": "/assets/pro-eight.jpg",
+    "title": "NICON TOWN ESTATE LEKKI, LAGOS",
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-thirteen.jpg",
     "title": "GREENWICH MARCHANT BANK",
-    "text": "Server Room Electrical Installation."
+    "text": "Server Room Electrical Installation.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-fourteen.jpg",
     "title": "BONNY ISLAND POLYTECHNIC",
-    "text": "Electrical Synchronizing Panel."
+    "text": "Electrical Synchronizing Panel.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-fifteen.jpg",
     "title": "ADEWALE AYUBA ESTATE",
-    "text": "Lighting Installation."
+    "text": "Lighting Installation.",
+    "type": "Electrical"
   },
   {
     "images": "/assets/pro-sixteen.jpg",
     "title": "SHORTLET LEKKI PHASE1",
-    "text": "Design (Mechanical, Electrical & Plumbling)."
+    "text": "Design (Mechanical, Electrical & Plumbling).",
+    "type": "Designs"
+  },
+  {
+    "images": "/assets/pro-sixteen.jpg",
+    "title": "SHORTLET LEKKI PHASE1",
+    "text": "Design (Mechanical, Electrical & Plumbling).",
+    "type": "Mechanical"
   },
   {
     "images": "/assets/pro-seventeen.jpg",
@@ -93,11 +126,24 @@
   {
     "images": "/assets/pro-nineteen.jpg",
     "title": "LUTH IDIARABA",
-    "text": "Mechanical & Plumbling."
+    "text": "Mechanical & Plumbling.",
+    "type": "Mechanical"
   },
   {
     "images": "/assets/pro-twenty.jpg",
-    "title": "ADEWALE AYUBA ESTATE",
-    "text": "Lighting Installation."
+    "title": "BAY VIEW ESTATE",
+    "text": "Plumbing"
+  },
+  {
+    "images": "/assets/pro-seven.jpg",
+    "title": "LAKE VIEW ESTATE LEKKI, LAGOS",
+    "text": "Mechanical, Electrical and Plumbling.",
+    "type": "Mechanical"
+  },
+  {
+    "images": "/assets/pro-twelve.jpg",
+    "title": "SHORELINE ESTATE",
+    "text": "Lighting Installation.",
+    "type": "Electrical"
   }
 ]

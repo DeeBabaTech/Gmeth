@@ -19,6 +19,10 @@ export default function Home() {
     setProjectType(type);
   };
 
+  const filteredProjects = projects.filter(
+    (project) => projectType === "All" || project.type === projectType
+  );
+
   return (
     <div className='w-full text-white'>
       {/* About section */}
@@ -75,12 +79,12 @@ export default function Home() {
           <ThreeDCard
             image='/assets/service-one.svg'
             title='MECHANICAL SERVICE'
-            body='We ensure that our clients get best solution tailor-made for their specific purpose.'
+            body='We deliver top-tier mechanical service solutions meticulously to all clients.'
           />
           <ThreeDCard
             image='/assets/service-two.svg'
             title='ELECTRICAL SERVICE'
-            body='We ensure that our clients get best solution tailor-made for their specific purpose.'
+            body='Our electrical service is crafted to meet the unique needs of our clients.'
           />
         </div>
       </div>
@@ -134,7 +138,7 @@ export default function Home() {
           </div>
         </div>
         <div className='flex flex-wrap justify-start items-center text-slate-100 gap-y-5 gap-[2%]'>
-          {projects.map((project, index) => {
+          {filteredProjects.map((project, index) => {
             return (
               <DirectionAwareHover
                 imageUrl={project.images}
@@ -149,9 +153,6 @@ export default function Home() {
       </div>
 
       <Divider />
-
-      
-      
     </div>
   );
 }
