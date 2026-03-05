@@ -38,7 +38,8 @@
   {
     "images": "/assets/pro-five.jpg",
     "title": "Grace Event Center",
-    "text": "Heat, Ventilation, and Air Conditioning."
+    "text": "Heat, Ventilation, and Air Conditioning.",
+    "type": "Mechanical"
   },
   {
     "images": "/assets/pro-six.jpg",
@@ -145,5 +146,35 @@
     "title": "SHORELINE ESTATE",
     "text": "Lighting Installation.",
     "type": "Electrical"
+  },
+  {
+    "images": "/assets/pro-thirteen.jpg",
+    "title": "CHEVRON COOPERATIVE ESTATE ABIJO GRA",
+    "text": "Infrastructure Design.",
+    "type": "Designs"
+  },
+  {
+    "images": "/assets/pro-fourteen.jpg",
+    "title": "CHEVRON COOPERATIVE ESTATE RICHPARK",
+    "text": "Infrastructure Design (Ostrich Road, Lekki).",
+    "type": "Designs"
+  },
+  {
+    "images": "/assets/pro-fifteen.jpg",
+    "title": "CHEVRON COOPERATIVE ESTATE HERITAGE",
+    "text": "Infrastructure Design (Jakande Roundabout).",
+    "type": "Designs"
+  },
+  {
+    "images": "/assets/pro-sixteen.jpg",
+    "title": "DURUMI MULTI-PURPOSE DEVELOPMENT, ABUJA",
+    "text": "Mechanical, Electrical, and Plumbing (MEP) Services.",
+    "type": "Electrical"
+  },
+  {
+    "images": "/assets/pro-sixteen.jpg",
+    "title": "DURUMI MULTI-PURPOSE DEVELOPMENT, ABUJA",
+    "text": "Mechanical, Electrical, and Plumbing (MEP) Services.",
+    "type": "Mechanical"
   }
 ]
